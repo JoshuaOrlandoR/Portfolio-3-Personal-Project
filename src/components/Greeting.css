@@ -1,0 +1,23 @@
+.greeting {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: white;
+  font-size: 2rem;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.greeting.fix-greeting::before {
+  content: 'e';
+  visibility: hidden;
+}
+
+.greeting.fix-greeting::after {
+  content: 'undefined';
+  visibility: hidden;
+}
+
