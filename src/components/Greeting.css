@@ -9,10 +9,11 @@
   font-family: monospace;
   overflow: hidden;
   white-space: nowrap;
+  text-align: center;
 }
 
 .greeting.fix-greeting::before {
-  content: 'e';
+
   visibility: hidden;
 }
 

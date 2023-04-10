@@ -5,7 +5,7 @@ function Greeting() {
   const [greeting, setGreeting] = useState('');
 
   useEffect(() => {
-    const text = '  Hello, my name is Joshua. Please continue scrolling.'; 
+    const text = '  Hello, my name is Joshua. ↓'; 
     let index = 0;
     const intervalId = setInterval(() => {
       setGreeting((prevGreeting) => prevGreeting + text[index]);
