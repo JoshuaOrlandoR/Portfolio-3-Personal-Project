@@ -27,11 +27,11 @@ function Hero() {
       <div className="hero-background"></div>
       <div ref={heroContent} className="hero-content">
         <div className="hero-text">
-          <h3 className="first-text slide-left">Placeholder text</h3>
-          <h3 className="second-text slide-left">Placeholder text</h3>
-          <h3 className="third-text slide-left">Placeholder text</h3>
+          <h3 className="first-text">Will include</h3>
+          <h3 className="second-text">a tagline</h3>
+          <h3 className="third-text">and something else maybe????</h3>
         </div>
-        <div className="hero-image slide-right">
+        <div className="hero-image">
           <img src={image} alt="Placeholder for image" />
         </div>
       </div>
