@@ -1,0 +1,28 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  
+  .active {
+    text-decoration: underline;
+  }
+  
