@@ -1,3 +1,9 @@
+body {
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+  }
+  
 .projects {
     max-width: 960px;
     margin: 0 auto;
@@ -9,6 +15,7 @@
     margin-bottom: 2rem;
     text-align: center;
     font-family: monospace;
+    color: #c27b87;
   }
   
   .projects-grid {
@@ -21,6 +28,12 @@
     border-radius: 10px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   
   @media screen and (max-width: 768px) {
