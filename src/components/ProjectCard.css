@@ -13,7 +13,7 @@
   
   .card-img-top {
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     background-color: whitesmoke;
   }
@@ -43,7 +43,7 @@
     line-height: 1.4;
     text-align: left;
     flex-grow: 1;
-    height: 100px; /* adjust this value based on your desired fixed height */
+    height: 120px; /* adjust this value based on your desired fixed height */
     overflow-y: auto;
   }
   
@@ -76,7 +76,7 @@
   }
   
   .card-link.githubButton:hover {
-    background-color: #81c784;
+    background-color: #548a56;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   

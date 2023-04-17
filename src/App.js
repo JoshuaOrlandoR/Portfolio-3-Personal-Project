@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects.js';
+import Contact from './pages/Contact';
 // import Contact from './pages/Contact.js';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
             />
           <Route path="/about"
             element={<About />}
+            />
+          <Route path="/contact"
+            element={<Contact />}
             />
         </Routes>
       </div>
