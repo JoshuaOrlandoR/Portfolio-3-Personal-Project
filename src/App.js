@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects.js';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 // import Contact from './pages/Contact.js';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             element={<Contact />}
             />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

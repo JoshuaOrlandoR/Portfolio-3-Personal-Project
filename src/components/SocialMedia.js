@@ -17,7 +17,7 @@ const SocialMedia = () => {
                 <i className="devicon-linkedin-plain social-media-icon" onClick={() => handleClick('https://www.linkedin.com/in/joshua-ramkissoon-140650265/')}></i>
                 <div className="resume-container" onClick={() => handleClick('https://example.com/your_resume.pdf')}>
                     <AiFillFileAdd className="resume-icon social-media-icon" />
-                    <span className="resume-text">CV yet to add</span>
+                    <span className="resume-text">CV</span>
                 </div>
             </div>
         </div>
